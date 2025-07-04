@@ -17,3 +17,5 @@ Install-WindowsFeature -AD-Domain-Services -IncludeManagementTools
 ```shell
 Set-DNSClientServerAddress -InterfaceIndex \<II\> -ServerAddress \<ip\>
 ```
+
+sldjfsdlkfjsdlkfj
