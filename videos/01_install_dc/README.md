@@ -11,3 +11,9 @@
 ```shell
 Install-WindowsFeature -AD-Domain-Services -IncludeManagementTools
 ```
+
+3. make sure you change the dns server on the dc from 127.0.0.1 to its own ip address
+
+```shell
+Set-DNSClientServerAddress -InterfaceIndex \<II\> -ServerAddress \<ip\>
+```
